@@ -1,0 +1,8 @@
+>docker run --detach 
+--env MYSQL_ROOT_PASSWORD=dummypassword 
+--env MYSQL_USER=social-media-user 
+--env MYSQL_PASSWORD=dummypassword 
+--env MYSQL_DATABASE=social-media-database 
+--name mysql_social_media_api 
+--publish 3306:3306 mysql:8-oracle
+509415854adb7c05099f895d0177fceb048374aba5b8ea99597608066186378d
